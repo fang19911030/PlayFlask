@@ -1,5 +1,5 @@
 import pymysql
-import dp_config
+import db_config
 connection = pymysql.connect(host='localhost',
                              user=dp_config.db_user,
                              passwd=dp_config.db_password)
